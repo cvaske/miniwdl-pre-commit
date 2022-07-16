@@ -1,0 +1,7 @@
+  - id: miniwdl-check
+    name: miniwdl check
+    language: python
+    files: ".+\\.wdl"
+    verbose: true
+    entry: miniwdl
+    args: [check]
